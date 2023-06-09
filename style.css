@@ -1,0 +1,52 @@
+body {
+    background-color: #f2f2f2;
+}
+
+h1 {
+    color: #ff5555;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.canvas {
+    text-align: center;
+}
+
+canvas {
+    /*width: 100%;*/
+    background-image: url("https://img.freepik.com/free-vector/neon-light-arrow-direction-perspective_1017-22033.jpg?w=1380&t=st=1686300474~exp=1686301074~hmac=fcab317f2bdd21d359f6f7e0095cf889df00b6b66aff7b8747c4dfaaba162445");
+    background-size: 600px 400px;
+ 
+}
+
+
+.button {
+    text-align: left;
+    margin-left: 200px;
+
+}
+
+#startBtn {
+    background: linear-gradient(to right, red, blue);
+}
+
+#resetBtn {
+    background: linear-gradient(to right, blue, red);
+}
+
+
+button {
+    /*background: linear-gradient(to right, red, blue); */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 12px;
+}
+
+footer {
+    text-align: center;
+    font-size: 16px;
+}
